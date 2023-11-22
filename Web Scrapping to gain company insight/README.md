@@ -71,7 +71,7 @@ From the code above, We extracted 1000 reviews from Skytrax website across 10 pa
 
 1. **Classifying Sentiments**
    
-A function classify_sentiment() is created to classify reviews based on the presence of a specific phrase (in this case, 'Trip Verified'). If this phrase exists in the review, it's categorized as 'Positive'; otherwise, it's categorized as 'Negative'. This classification adds a new column called 'review_sentiment' to the DataFrame, which helps categorize reviews based on sentiment.
+    A function classify_sentiment() is created to classify reviews based on the presence of a specific phrase (in this case, 'Trip Verified'). If this phrase exists in the review, it's categorized as     'Positive'; otherwise, it's categorized as 'Negative'. This classification adds a new column called 'review_sentiment' to the DataFrame, which helps categorize reviews based on sentiment.
 
 ```python
 # Function to classify reviews based on the presence of ✅ emoji
@@ -90,25 +90,25 @@ This function checks if the phrase 'Trip Verified' is present in the review text
 ---
 2. **Sentiment Analysis Summary**
    
-After applying the sentiment classification function, a summary is provided that outlines the count of positive and negative reviews. This analysis helps in understanding the distribution of sentiments among the collected reviews.
+    After applying the sentiment classification function, a summary is provided that outlines the count of positive and negative reviews. This analysis helps in understanding the distribution of sentiments among the collected reviews.
+    
+    **Sentiment Analysis Summary 📊**
+    
+    * ✅ Positive Reviews: 791 reviews
+    * ❌ Negative Reviews: 209 reviews
+    
+    After performing sentiment analysis on the reviews, we've uncovered interesting insights into passenger sentiments regarding British Airways:
+    
+    - **Positive Reviews** ✅: There are a total of 791 positive reviews, marked with the ✅ emoji. Passengers who shared positive experiences and impressions make up the majority of the dataset.
+    
+    - **Negative Reviews** ❌: There are 209 negative reviews without the ✅ emoji. These reviews indicate areas where passengers may have encountered issues or challenges during their interactions with British Airways.
 
-**Sentiment Analysis Summary 📊**
-
-* ✅ Positive Reviews: 791 reviews
-* ❌ Negative Reviews: 209 reviews
-
-After performing sentiment analysis on the reviews, we've uncovered interesting insights into passenger sentiments regarding British Airways:
-
-- **Positive Reviews** ✅: There are a total of 791 positive reviews, marked with the ✅ emoji. Passengers who shared positive experiences and impressions make up the majority of the dataset.
-
-- **Negative Reviews** ❌: There are 209 negative reviews without the ✅ emoji. These reviews indicate areas where passengers may have encountered issues or challenges during their interactions with British Airways.
-
-This sentiment analysis provides a valuable initial perspective on passenger feedback. Further exploration and analysis can help us delve deeper into the specific aspects that contributed to these sentiments.
+    This sentiment analysis provides a valuable initial perspective on passenger feedback. Further exploration and analysis can help us delve deeper into the specific aspects that contributed to these sentiments.
 
 ---
 3. **Minimize All Keyword Character**
 
-we minimize all the keyword because it doesn't mess with our analysis with different values but it's actually the same keyword, because we gonna collect an insight of the all the reviews using wordcloud. 
+    we minimize all the keyword because it doesn't mess with our analysis with different values but it's actually the same keyword, because we gonna collect an insight of the all the reviews using wordcloud. 
 
 
 ## Visualization Analysis
