@@ -30,6 +30,10 @@ pip install seaborn
 ``` python 
 pip install sklearn
 ```
+## Dataset Information
+The dataset utilized for predicting customer buying behavior is accessible via this [link](https://github.com/riyouuyt/Forage-British-Airways-Virtual-Experience/tree/master/predicting%20customer%20buying%20behaviour/Dataset). It encompasses various features encompassing booking details such as the number of passengers, sales channel, trip type, purchase lead time, length of stay, flight details, booking origin, and more. 
+
+The dataset is structured with 50,000 rows and 14 columns, housing information that provides insights into customer behavior and preferences related to flight bookings. This dataset serves as the foundation for predictive modeling to anticipate and understand customer buying behavior.
 
 
 ## **Data Preparation/Understanding** 📊
